@@ -1,0 +1,41 @@
+/*footer styles*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
+
+/*helper styles*/
+
+body {
+  background: hsl(0,0%,75%);
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: hsl(0,0%,100%);
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: hsl(0,100%,25%);
+  height: 200px;
+  width: 100vw;
+}
+
+.footer {
+  background: hsl(300,100%,25%);
+}
